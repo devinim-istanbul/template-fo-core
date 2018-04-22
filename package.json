@@ -1,0 +1,19 @@
+{
+  "name": "serveme-fo-core",
+  "version": "1.0.0",
+  "description": "Core frontend structure for ServeMe application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dincozdemir/serveme-fo-core.git"
+  },
+  "author": "dincozdemir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dincozdemir/serveme-fo-core/issues"
+  },
+  "homepage": "https://github.com/dincozdemir/serveme-fo-core#readme"
+}
