@@ -1,3 +1,8 @@
 import sessionReducer from './sessionReducer';
 
-export { sessionReducer };
+const reducers = {
+    sessionStore: sessionReducer
+};
+
+export default reducers;
+

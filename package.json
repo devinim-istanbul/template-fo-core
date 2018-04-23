@@ -1,10 +1,10 @@
 {
   "name": "serveme-fo-core",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Core frontend structure for ServeMe application",
   "main": "lib/index.js",
   "scripts": {
-    "compile": "babel -d lib/ src/",
+    "prepare": "babel -d lib/ src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/dincozdemir/serveme-fo-core/issues"
   },
   "homepage": "https://github.com/dincozdemir/serveme-fo-core#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1"
