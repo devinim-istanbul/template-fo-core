@@ -1,5 +1,4 @@
 import { SESSION } from "../types";
-import { async } from "../../index";
 import { config } from "../../config/platform";
 
 export const login = (user) => async dispatch => {
