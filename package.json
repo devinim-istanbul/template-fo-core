@@ -1,6 +1,6 @@
 {
   "name": "serveme-fo-core",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Core frontend structure for ServeMe application",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "babel-core": "^6.25.0",
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.5.2",
     "webpack": "^2.6.1",
