@@ -1,7 +1,7 @@
 module.exports = {
     output: {
         filename: "index.js",
-        library: "servemeFoCore",
+        library: "templateFoCore",
         libraryTarget: 'umd'
     },
     module: {

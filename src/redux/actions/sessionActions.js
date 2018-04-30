@@ -1,8 +1,10 @@
 import { SESSION } from "../types";
-import { config } from "../../config/platform";
+import components from "../../components/platform";
+import api from '../../api';
 
 export const login = (user) => async dispatch => {
-    await config.localStorage.setItem('@ServeMe:user', JSON.stringify(user));
+    const { PlatformStorage } = components;
+    await PlatformStorage.setItem('@Template:user', JSON.stringify(user));
     dispatch({
         type: SESSION.LOGIN,
         payload: user

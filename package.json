@@ -1,7 +1,7 @@
 {
-  "name": "serveme-fo-core",
+  "name": "template-fo-core",
   "version": "1.0.6",
-  "description": "Core frontend structure for ServeMe application",
+  "description": "Core frontend structure for template application",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "webpack --mode production",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dincozdemir/serveme-fo-core.git"
+    "url": "git+https://github.com/devinim-istanbul/template-fo-core.git"
   },
   "author": "dincozdemir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dincozdemir/serveme-fo-core/issues"
+    "url": "https://github.com/devinim-istanbul/template-fo-core/issues"
   },
-  "homepage": "https://github.com/dincozdemir/serveme-fo-core#readme",
+  "homepage": "https://github.com/devinim-istanbul/template-fo-core#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-jest": "^22.4.3",
@@ -30,5 +30,8 @@
     "jest": "^22.4.3",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.15"
+  },
+  "dependencies": {
+    "query-string": "^6.0.0"
   }
 }
